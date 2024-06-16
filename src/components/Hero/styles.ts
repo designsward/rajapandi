@@ -58,7 +58,7 @@ export const Container = styled.section`
     .hero-text{
 
       h1{
-        font-size: 5rem;
+        font-size: 3rem;
       }
     }
     
