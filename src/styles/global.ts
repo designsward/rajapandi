@@ -1,10 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+
   :root{
-    --pink: #E31F71;
-    --black: #212121;
-    --green: #23ce6b;
+    --pink: #30cb5b;
+    --black: #000;
+    --green: #30cb5b;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
@@ -55,6 +56,8 @@ export const GlobalStyle = createGlobalStyle`
 
     }
   }
+
+
 
   ul, li {
     text-decoration: none;
@@ -115,4 +118,6 @@ export const GlobalStyle = createGlobalStyle`
     //   color: var(--green);
     // }
   }
+  
+
 `

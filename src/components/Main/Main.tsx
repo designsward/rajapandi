@@ -1,23 +1,30 @@
 import Particles from "react-tsparticles"
-import { Container } from "./styles";
-import { Hero } from "../Hero/Hero";
+import { Container } from "./styles"
+import { Hero } from "../Hero/Hero"
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
+
+
+
+
+import wordpress from "../../assets/wordpress.png";
+import figma from "../../assets/figma.png";
+import android from "../../assets/Android.png";
+import discord from "../../assets/discord.png";
+import Ai from "../../assets/Ai.png";
+import Ps from "../../assets/Ps.png";
+import XD from "../../assets/XD.png";
+import java from "../../assets/java.png";
+import python from "../../assets/python.png";
+import html from "../../assets/html.png";
 import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
 export function Main() {
   return (
+
     <Container>
       <Particles
         id="tsparticles"
@@ -149,42 +156,53 @@ export function Main() {
               },
               "image": [
                 {
+                  "src": Ai,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": figma,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": figma,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": figma,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": XD,
+                  "width": 20,
+                  "height": 20
+                },
+                
+                {
+                  "src": Ps,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": discord,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": html,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                   "src": cssIcon,
+                   "width": 20,
+                   "height": 20
+                },
+                {
                   "src": boostrapIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": cssIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": wordpress,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": shopify,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": htmlIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": jsIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": nodeIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -194,22 +212,22 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": android,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": typescriptIcon,
+                  "src": java,
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
-                  "src": vueIcon,
+                   "src": wordpress,
+                   "width": 20,
+                   "height": 20
+                },
+                {
+                  "src": python,
                   "width": 20,
                   "height": 20
                 },
@@ -258,6 +276,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
+
       <Contact></Contact>
     </Container>
   );
